@@ -1,0 +1,32 @@
+.slick-slider {
+    margin: 0;
+}
+#instagram-slider {
+    width: 80%;
+    max-width: 1200px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+#instagram-slider .slick-slide img {
+    height: 240px;
+    padding: 5px;
+}
+#instagram-slider button.slick-next:before, button.slick-prev:before {
+    font-family: 'slick';
+    font-size: 25px;
+    line-height: 1;
+    opacity: .6;
+    color: black;
+}
+#instagram-slider button.slick-next:hover, button.slick-prev:hover {
+    background: transparent;
+}
+#instagram-slider .slick-next:before {
+    content: '→';
+}
+#instagram-slider .slick-prev:before {
+    content: '←';
+}
+#instagram-slider .slick-prev, #instagram-slider .slick-next {
+    top: 54%;
+}
