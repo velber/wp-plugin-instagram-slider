@@ -1,7 +1,5 @@
 # wp-plugin-instagram-slider
 
----
-
 Wordpress plugin instagram slider
 
 ## Description
